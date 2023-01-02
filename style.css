@@ -66,7 +66,6 @@ main{
 }
 
 .texthero{
-    /* width: 45%; */
     padding: 7vw 0 0 9vw;
     text-transform: uppercase;
     background-color: #F3F1EF;  
@@ -74,7 +73,6 @@ main{
 }
 
 h1, h2, .phero{
-   /*  font-size: 3rem; */
    font-size: 3vw;
 }
 
@@ -88,11 +86,9 @@ span{
 }
 
 h3{
-    /* font-size: 1.2rem; */
     font-size: 1.2vw;
     font-weight: bold;
     line-height: 15vh;
-    /* line-height: 5rem; */
 }
 
 i{
@@ -100,14 +96,10 @@ i{
     margin: auto 0.3vw;
 }
 
-.herobtn1{
- /*    height: 40px;
-    width: 25%;
-    font-size: 0.9rem; */
+.herobtn1{ 
     height: 3vw;
     width: 10vw;
     font-size: 1vw;
-    margin: 0;
     color: #F3F1EF;
     background-color: #171514;
     border:1px solid #171514;
@@ -123,9 +115,6 @@ i{
 } 
 
 .herobtn2{
-    /* height: 40px;
-    width: 20%;
-    font-size: 0.9rem; */
     height: 3vw;
     width: 7vw;
     font-size: 1vw;
@@ -155,7 +144,6 @@ img{
 .servicescont{
     display: flex;
     justify-content: space-around;
-   /*  font-size: 1rem; */
     font-size: 1vw;
     text-transform: uppercase;
     margin: 0;
@@ -163,9 +151,7 @@ img{
     color: #F3F1EF;
     background-color: #171514;
     padding: 5vh 0.1vw;
-    /* transform: rotate(-4deg) skew(-4deg); */
     transform: skewY(-4deg);
-    
 } 
 
 .servicescont > p{
@@ -178,19 +164,10 @@ img{
     background-color: #F3F1EF;
 }
 
-/* @media{
-    max 1652
-    ideal 1450
-    1047 se caga la imagen, los botones del hero y el h2
-    910 se caga el h3
-    (max-width: 1652px;)} 
-    
-    
-    */
 
-    
  @media (max-width:560px){
 
+   
     .logoname{
         width: 20vw;
     }
@@ -204,8 +181,7 @@ img{
     }
     
     main{
-        overflow: visible;
-         
+        overflow: visible;  
     }
     
     .hero{
@@ -213,21 +189,11 @@ img{
         flex-direction: column;
         width: 100%;
         padding: none;
+        overflow: visible;
     }
 
-    .hero{
-        display: flex;
-        justify-content: center;
-        background-color: #F3F1EF;
-        padding: none;
-        margin: 0;
-    }
-    
     .texthero{
-        /* width: 45%; */
-        padding: 5vw 0 4vw 9vw;
-         
-       
+        padding: 5vw 0 4vw 9vw; 
     }
 
     h1, h2, .phero{
@@ -240,21 +206,21 @@ img{
     }
     
     .herobtn1{
-         height: 12vh;
+         height: 7vh;
          width: 28vw;
          font-size: 3vw; 
     }
 
     .herobtn2{
-        height: 12vh;
+        height: 7vh;
         width: 20vw;
         font-size: 3vw; 
-   }
-
+   } 
+   
     img{
         width: 100%;
-        height: auto;
-        padding: 0;     
+        height: auto;   
+        padding: 0;
     }
 
     .servicescont{
@@ -267,11 +233,16 @@ img{
         flex-direction: column;
         align-items: center;
         font-size: 3vw;
-        padding: 5vh 0.1vw;
         transform:none  
     } 
 
     .servicescont > p{
         transform: none;
     }
+    .lastsect{
+        display: none;
+    }
+    
 }
+
+
